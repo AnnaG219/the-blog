@@ -22,4 +22,16 @@ $(document).ready(function() {
     $("#p2").removeClass();
     $("#p3").addClass("highlight");
   });
+  $("#p1").click(function() {
+    $("img").remove();
+    $(this).append("<img src='img/walrus.jpg'/>");
+  });
+  $("#p2").click(function() {
+    $("img").remove();
+    $(this).append("<img src='img/polar.jpg'/>");
+  });
+  $("#p3").click(function() {
+    $("img").remove();
+    $(this).before("<img src='img/penguin.jpg'/>");
+  });
 });
