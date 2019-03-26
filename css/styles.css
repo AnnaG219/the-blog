@@ -10,3 +10,14 @@
 .highlight{
   color: Pink;
 }
+.black-background {
+  color: white;
+  background-color: black;
+}
+.white-background {
+  color: black;
+  background-color: white;
+}
+.btn {
+  margin-bottom: 5px;
+}
