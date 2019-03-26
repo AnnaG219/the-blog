@@ -21,3 +21,10 @@
 .btn {
   margin-bottom: 5px;
 }
+.clickable1, .clickable2, .clickable3 {
+  color: blue;
+}
+.highlight {
+  background-color: yellow;
+  border: 1px solid black;
+}
